@@ -6,12 +6,12 @@ then selenium jei browser use kore automation korbe sei browser er webdriver dow
 chrome er khetre pc te installed normal chrome browser er version er sathe mil rekhe webdriver namate hobe.
 https://chromedriver.chromium.org/downloads
 
-DriverPath cahange/adjust kkore nite hobe (line 14)
+DriverPath cahange/adjust kkore nite hobe (line 13)
 
 
-line 25 hosse google.com er homepage e search query likhtece
+line 26 te google.com er homepage e search box e query type korteci
 
-r line 33 te ami href xpath khujteci search result generate hobar por
+r line 34 e ami href xpath khujteci search result generate hobar por
 
 actual xpath akhono adjust korte hobe amar. print(href) vulval aste pare. but oita ami pore dekhbani, xpath change kore google
 
