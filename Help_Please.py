@@ -1,14 +1,14 @@
 from selenium import webdriver
 import os
 import time
-#from selenium.webdriver.common.by import By
-#from selenium.webdriver.support.ui import Select
+
+
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 
 
 options = Options()
-#options.headless = True #(turn on background mode)
+
 driver = webdriver.Chrome(options=options,
           executable_path='chromedriver')   
 
@@ -36,5 +36,3 @@ element=driver.find_element_by_xpath('//div[2]/div/div[1]/a')
 ### {RIJVY}    eikhane href hosse first result er href attribute     #####
 href = element.get_attribute('href')
 print (href)
-
-#driver.quit()
